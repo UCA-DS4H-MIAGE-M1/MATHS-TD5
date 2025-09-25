@@ -7,4 +7,7 @@ Source des données utilisées pour le TD5 du cours de Maths pour le Machine Lea
 
 ```
 tab <- read.csv("nom_du_fichier", header = TRUE, sep = ",")
+plot(tab$x)
 ```
+
+On accede par `$` aux colonnes d'un *dataframe* dans **R**.
